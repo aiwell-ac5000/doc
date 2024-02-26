@@ -4,3 +4,16 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Aiwell AC5000 Brukermanual"
+
+[output.html]
+
+[output.pandoc.profile.pdf]
+output-file = "output.pdf"
+to = "latex"
+
+# PDF-specific settings
+pdf-engine = "pdflatex" # engine to use to produce PDF output
+
+# Variables for LaTeX output
+[output.pandoc.profile.pdf.variables]
+lang="nb"
