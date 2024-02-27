@@ -1,0 +1,1 @@
+# Oppstart og konfigurasjon

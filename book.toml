@@ -5,6 +5,10 @@ multilingual = false
 src = "src"
 title = "Aiwell AC5000 Brukermanual"
 
+# add missing pagestyle
+#[build]
+#create-missing = true
+
 [output.html]
 
 [output.pandoc.profile.pdf]

@@ -1,3 +1,1 @@
-# Introduksjon
-
 ## Om dette dokumentet
