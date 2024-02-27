@@ -3,7 +3,7 @@
 language = "en"
 multilingual = false
 src = "src"
-# title = "Aiwell AC5000 Brukermanual"
+title = "Aiwell AC5000 Brukermanual"
 
 [output.html]
 
@@ -19,6 +19,7 @@ pdf-engine = "pdflatex" # engine to use to produce PDF output
 file-scope = true # parse each file individually before combining
 number-sections = true # number sections headings
 standalone = true # produce output with an appropriate header and footer
+template = "src/latex.template" # use a custom LaTeX template
 table-of-contents = true # include an automatically generated table of contents
 include-before-body = "src/title-page.tex" # include a title page before the main content
 include-in-header= "src/preamble.tex" # include a preamble before the main content
