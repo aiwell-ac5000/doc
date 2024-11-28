@@ -1,1 +1,5 @@
+```{=latex}
+\newpage
+```
+
 # Konfigurasjon

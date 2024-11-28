@@ -1,1 +1,2 @@
+<!--hidden-->
 # Sensor Interface Maxi

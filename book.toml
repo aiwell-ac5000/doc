@@ -5,16 +5,20 @@ multilingual = false
 src = "src"
 title = "Aiwell AC5000 Brukermanual"
 
+[preprocessor.hide]
+hide = true
+
 # add missing pagestyle
-#[build]
-#create-missing = true
+[build]
+create-missing = true
 
 [output.html]
 
 [output.pandoc.profile.pdf]
-output-file = "output.pdf"
-from = "markdown+raw_html"
+output-file = "Aiwell AC5000 Brukermanual.pdf"
+from = "markdown"
 to = "latex"
+filters = ["pandoc-crossref"]
 
 # PDF-specific settings
 pdf-engine = "pdflatex" # engine to use to produce PDF output
@@ -31,3 +35,7 @@ include-in-header= "src/preamble.tex" # include a preamble before the main conte
 # Variables for LaTeX output
 [output.pandoc.profile.pdf.variables]
 lang="nb"
+
+# Metadata for pandoc-crossref
+[output.pandoc.profile.pdf.metadata]
+figPrefix = "Figur"

@@ -1,0 +1,2 @@
+<!--hidden-->
+# Forkortelser og definisjoner
