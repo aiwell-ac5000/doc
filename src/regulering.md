@@ -16,3 +16,9 @@ Reguleringen vil alltid levere laveste pådrag basert de ulike kriteriene. Det v
 Regluering basert på T24 er invers, slik at pådraget senkes ved lavere temperatur. Dette for å unngå frostskader, primært under oppstart med svært kald glykol.
 
 Siden varmeveksler ikke leveres av Aiwell, og det er stor variasjon i disse, vil reguleringen alltid måtte tilpasses den aktuelle varmeveksleren. Kundens ønsker og behov vil også være avgjørende for hvordan reguleringen settes opp. Utstyret leveres derfor med en standard konfigurasjon som kan tilpasses etter behov og i dialog med kunden under prøvedrift.
+
+## Tuning av regulator
+
+AC5000 leveres med standard innstillinger som er tilpasset de fleste innstillinger. Kunder som ønsker en raskere eller tregere regulering, eller har spesielle behov, kan få dette tilpasset. 
+
+Spesielt når det er ønskelig med raskere øking av pådrag, er det viktig å merke seg at dette begrenses av hvor rask varmeveksleren og eventuelt fjernvarmen reagerer. Dersom reguleringen økes for mye, vil det kunne føre til overoppheting eller svingninger i pådraget som hindrer anlegget i å nå ønsket driftstemperatur. Anlegget kan derfor ikke øke pådraget raskere enn at det klarer å regulere ned igjen før temperaturen overstiger ønsket nivå. Dersom Aiwell ikke styrer tilførsel av varme på primærsiden, vil det være nødvendig å tilpasse regulator til det enkelte anlegg. 

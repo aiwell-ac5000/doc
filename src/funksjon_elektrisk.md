@@ -1,4 +1,4 @@
-# Funksjonsbeskrivelse
+# Funksjonsbeskrivelse og brukerveiledning
 
 Funsjonsbeskrivelsen i dette kapittelet benytter standard verdier for innstillinger og parametere. Alle verdier kan endres i konfigurasjonen.
 
